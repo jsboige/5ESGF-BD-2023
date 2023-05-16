@@ -21,8 +21,8 @@ namespace HelloSpark
 
 			// Create initial DataFrame
 			//string filePath = args[0];
-			Console.WriteLine($"Current Dir:{Environment.CurrentDirectory}");
-			Console.WriteLine($"Current Files: {Directory.GetFiles(Environment.CurrentDirectory).Aggregate((s, s1) => s+s1)}");
+			//Console.WriteLine($"Current Dir:{Environment.CurrentDirectory}");
+			//Console.WriteLine($"Current Files: {Directory.GetFiles(Environment.CurrentDirectory).Aggregate((s, s1) => s+s1)}");
 
 			string filePath = "dbfs:/input.txt";
 			if (args.Length>0)
