@@ -8,5 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Sudoku.Shared\Sudoku.Shared.csproj" />
+	<PackageReference Include="Microsoft.Spark" Version="2.1.1" />
    </ItemGroup>
 </Project>

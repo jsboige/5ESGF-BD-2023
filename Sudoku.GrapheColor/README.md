@@ -1,8 +1,12 @@
 ## Sudoku solver
 
-### project realised by :
+### project réalisé par :
 - TRAORE Abdoulaye
 - CHACHA Ali Ahmed Bachir
 - Soh Denis 
 - BENDDIF Basma
 - AMRANI Sohaib
+
+
+
+
