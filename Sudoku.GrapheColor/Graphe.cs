@@ -19,6 +19,7 @@ namespace Sudoku.GrapheColor
         public Graphe(SudokuGrid grid)
         {
             m_grid = grid.CloneSudoku();
+            m_sommets = new List<Sommet>();
             initGraphe();
         }
 

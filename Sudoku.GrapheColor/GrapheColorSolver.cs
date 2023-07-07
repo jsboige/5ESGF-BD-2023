@@ -1,5 +1,7 @@
 ﻿using System;
 using Sudoku.Shared;
+using Microsoft.Spark.Sql;
+
 
 namespace Sudoku.GrapheColor
 {
