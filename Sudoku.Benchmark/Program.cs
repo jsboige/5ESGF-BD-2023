@@ -24,7 +24,7 @@ namespace Sudoku.Benchmark
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Benchmarking GrilleSudoku Solvers");
+            Console.WriteLine("Benchmarking SudokuGrid Solvers");
 
             if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
             {

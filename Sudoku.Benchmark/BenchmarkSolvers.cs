@@ -189,7 +189,7 @@ namespace Sudoku.Benchmark
         }
 
 
-        [Benchmark(Description = "Benchmarking GrilleSudoku Solvers")]
+        [Benchmark(Description = "Benchmarking SudokuGrid Solvers")]
         public void Benchmark()
         {
             foreach (var puzzle in IterationPuzzles)
