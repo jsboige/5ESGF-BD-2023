@@ -17,7 +17,7 @@ namespace Sudoku.GrapheColor
         int m_ligne, m_colonne; // Position dans la grille
         int m_bloc;             // Numéro du bloc d'appartenance (carré 3x3)
 
-        // Constructeur du sommet
+        // Constructeur
         public Sommet(int id, int couleur)
         {
             m_id = id;

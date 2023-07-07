@@ -1,12 +1,11 @@
 ## Sudoku solver
 
-### project réalisé par :
+### project realised by :
 - TRAORE Abdoulaye
 - CHACHA Ali Ahmed Bachir
 - Soh Denis 
 - BENDDIF Basma
 - AMRANI Sohaib
-
 
 
 Solver choisi : <h3 style="color: cadetblue"> Coloration de graphe <H3>
@@ -56,4 +55,3 @@ Elle crée un objet Graphe à partir de la grille Sudoku fournie, puis effectue la
 Enfin, elle affiche la grille complétée et renvoie la grille résolue. 
 Si une exception est levée pendant le processus de résolution, elle est affichée à l'utilisateur.
 ```
-
