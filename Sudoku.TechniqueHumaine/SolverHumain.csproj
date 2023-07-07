@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Sudoku.Backtracking\Sudoku.Backtracking.csproj" />
+		<ProjectReference Include="..\Sudoku.Shared\Sudoku.Shared.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="BenchmarkDotNet" Version="0.13.5" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SudokuSolver">
+      <HintPath>External\SudokuSolver.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
+
+
+
+

@@ -32,7 +32,7 @@ namespace Sudoku.Shared
             _LineNeighbours.Concat(_ColumnNeighbours).Concat(_BoxNeighbours).ToArray();
 
 
-        private static (int row, int column)[][] GetBoxNeighbours()
+        public static (int row, int column)[][] GetBoxNeighbours()
         {
             var toreturn = new (int row, int column)[9][];
             for (int boxIndex = 0; boxIndex < 9; boxIndex++)
