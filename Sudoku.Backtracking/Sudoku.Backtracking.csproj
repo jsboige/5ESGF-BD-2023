@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Sudoku.Shared\Sudoku.Shared.csproj" />
+    <ProjectReference Include="C:\Users\odfkt\source\repos\RihabTsi\5ESGF-BD-2023\Sudoku.Shared\Sudoku.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>

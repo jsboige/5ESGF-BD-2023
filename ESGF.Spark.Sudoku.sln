@@ -18,6 +18,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sudoku.Benchmark", "Sudoku.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloSpark", "HelloSpark\HelloSpark.csproj", "{5919538A-E97D-4A33-B302-B90E70E7EE15}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sudoku.GeneticAlgorithm", "Sudoku.GeneticAlgorithm\Sudoku.GeneticAlgorithm.csproj", "{D465AFD1-B244-4073-BEA1-47C2B4788139}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{5919538A-E97D-4A33-B302-B90E70E7EE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5919538A-E97D-4A33-B302-B90E70E7EE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5919538A-E97D-4A33-B302-B90E70E7EE15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D465AFD1-B244-4073-BEA1-47C2B4788139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D465AFD1-B244-4073-BEA1-47C2B4788139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D465AFD1-B244-4073-BEA1-47C2B4788139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D465AFD1-B244-4073-BEA1-47C2B4788139}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
