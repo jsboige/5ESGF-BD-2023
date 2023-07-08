@@ -5,7 +5,7 @@ using GeneticSharp.Domain.Chromosomes;
 using GeneticSharp.Domain.Fitnesses;
 using Sudoku.Shared;
 
-namespace Sudoku.Mysolver
+namespace mysolver
 {
     public class SudokuFitness : IFitness 
     {

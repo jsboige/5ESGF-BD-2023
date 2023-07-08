@@ -5,7 +5,7 @@ using GeneticSharp.Domain.Chromosomes;
 using GeneticSharp.Domain.Randomizations;
 using Sudoku.Shared;
 
-namespace Sudoku.Mysolver
+namespace mysolver
 {
     /// <summary>
     /// This chromosome aims at increasing genetic diversity of SudokuPermutationsChromosome, which exhibits only 9 permutation genes 

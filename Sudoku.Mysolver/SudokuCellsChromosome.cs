@@ -5,7 +5,7 @@ using GeneticSharp.Domain.Randomizations;
 using System.Linq;
 using Sudoku.Shared;
 
-namespace Sudoku.Mysolver
+namespace mysolver
 {
     public class SudokuCellsChromosome : SudokuChromosomeBase, ISudokuChromosome
     {

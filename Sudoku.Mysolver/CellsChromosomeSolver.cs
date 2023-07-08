@@ -7,7 +7,7 @@ using GeneticSharp.Domain.Selections;
 using GeneticSharp.Domain.Terminations;
 using Sudoku.Shared;
 
-namespace Sudoku.Mysolver
+namespace mysolver
 {
     public class CellsChromosomeSolver : ISolverSudoku
     {

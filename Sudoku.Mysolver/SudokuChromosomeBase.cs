@@ -5,7 +5,7 @@ using System.Linq;
 using Sudoku.Shared;
 
 
-namespace Sudoku.Mysolver
+namespace mysolver
 {
 
  

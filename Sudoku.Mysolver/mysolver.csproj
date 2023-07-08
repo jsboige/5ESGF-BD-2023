@@ -1,18 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
-  <ItemGroup>
-    <ProjectReference Include="..\Sudoku.Backtracking\Sudoku.Backtracking.csproj" />
-    <ProjectReference Include="..\Sudoku.Shared\Sudoku.Shared.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="BenchmarkDotNet" Version="0.13.5" />
-    <PackageReference Include="GeneticSharp" Version="2.6.0" />
-  </ItemGroup>
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
-
+ <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.5" />
+    <PackageReference Include="GeneticSharp" Version="2.6.0" />
+    <PackageReference Include="Microsoft.Spark" Version="2.1.1" />
+  </ItemGroup>
+   <ItemGroup>
+    <ProjectReference Include="..\Sudoku.Backtracking\Sudoku.Backtracking.csproj" />
+    <ProjectReference Include="..\Sudoku.Shared\Sudoku.Shared.csproj" />
+  </ItemGroup>
 </Project>
