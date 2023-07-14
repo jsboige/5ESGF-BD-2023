@@ -22,6 +22,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sudoku.GrapheColor", "Sudok
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudokus avec la méthode SA", "Sudokus avec la méthode SA\Sudokus avec la méthode SA.csproj", "{D3A9E2A3-FFA7-4ADF-B53F-9C96952D9934}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sudoku.GeneticAlgorithm", "Sudoku.GeneticAlgorithm\Sudoku.GeneticAlgorithm.csproj", "{DFE79D84-D759-45B1-A661-01C66EFED83C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +54,10 @@ Global
 		{D3A9E2A3-FFA7-4ADF-B53F-9C96952D9934}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3A9E2A3-FFA7-4ADF-B53F-9C96952D9934}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3A9E2A3-FFA7-4ADF-B53F-9C96952D9934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE79D84-D759-45B1-A661-01C66EFED83C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE79D84-D759-45B1-A661-01C66EFED83C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE79D84-D759-45B1-A661-01C66EFED83C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE79D84-D759-45B1-A661-01C66EFED83C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
