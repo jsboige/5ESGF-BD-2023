@@ -3,7 +3,9 @@ using static Microsoft.Spark.Sql.Functions;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Globalization;
 using System.Linq;
+using System.Runtime.InteropServices;
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Columns;
 using BenchmarkDotNet.Configs;
@@ -11,6 +13,7 @@ using BenchmarkDotNet.Environments;
 using BenchmarkDotNet.Jobs;
 using BenchmarkDotNet.Mathematics;
 using BenchmarkDotNet.Order;
+using BenchmarkDotNet.Running;
 using Sudoku.Shared;
 
 
@@ -130,7 +133,7 @@ namespace mysolver
 
         private static void SingleSolverTest()
         {
-            var solvers = Shared.SudokuGrid.GetSolvers();
+            var solvers = SudokuGrid.GetSolvers();
             Console.WriteLine("Select difficulty: 1-Easy, 2-Medium, 3-Hard");
             var strDiff = Console.ReadLine();
             int.TryParse(strDiff, out var intDiff);
