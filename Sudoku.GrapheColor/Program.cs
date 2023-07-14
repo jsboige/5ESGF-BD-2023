@@ -19,7 +19,7 @@ namespace Sudoku.GrapheColor
                     .AppName("sudokuSolver_interactive_spark")
                     .GetOrCreate();
 
-            string filePath = "dbfs:/Sudoku_file.txt";
+            string filePath = @".\Sudoku_file.txt";
             if (args.Length > 0)
             {
                 filePath = args[0];
