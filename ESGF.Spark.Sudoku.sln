@@ -20,6 +20,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloSpark", "HelloSpark\He
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sudoku.GrapheColor", "Sudoku.GrapheColor\Sudoku.GrapheColor.csproj", "{E660F0A4-34DA-451B-90D1-49DAD44BC502}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudokus avec la méthode SA", "Sudokus avec la méthode SA\Sudokus avec la méthode SA.csproj", "{D3A9E2A3-FFA7-4ADF-B53F-9C96952D9934}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,10 @@ Global
 		{E660F0A4-34DA-451B-90D1-49DAD44BC502}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E660F0A4-34DA-451B-90D1-49DAD44BC502}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E660F0A4-34DA-451B-90D1-49DAD44BC502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3A9E2A3-FFA7-4ADF-B53F-9C96952D9934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3A9E2A3-FFA7-4ADF-B53F-9C96952D9934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3A9E2A3-FFA7-4ADF-B53F-9C96952D9934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3A9E2A3-FFA7-4ADF-B53F-9C96952D9934}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
