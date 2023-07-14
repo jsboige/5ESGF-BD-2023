@@ -18,6 +18,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sudoku.Benchmark", "Sudoku.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloSpark", "HelloSpark\HelloSpark.csproj", "{5919538A-E97D-4A33-B302-B90E70E7EE15}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mysolver", "Sudoku.Mysolver\mysolver.csproj", "{6643B173-0C1D-4A73-BF9A-9E12A324B089}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sudoku.GrapheColor", "Sudoku.GrapheColor\Sudoku.GrapheColor.csproj", "{E660F0A4-34DA-451B-90D1-49DAD44BC502}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudokus avec la méthode SA", "Sudokus avec la méthode SA\Sudokus avec la méthode SA.csproj", "{D3A9E2A3-FFA7-4ADF-B53F-9C96952D9934}"
@@ -46,6 +48,10 @@ Global
 		{5919538A-E97D-4A33-B302-B90E70E7EE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5919538A-E97D-4A33-B302-B90E70E7EE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5919538A-E97D-4A33-B302-B90E70E7EE15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6643B173-0C1D-4A73-BF9A-9E12A324B089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6643B173-0C1D-4A73-BF9A-9E12A324B089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6643B173-0C1D-4A73-BF9A-9E12A324B089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6643B173-0C1D-4A73-BF9A-9E12A324B089}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E660F0A4-34DA-451B-90D1-49DAD44BC502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E660F0A4-34DA-451B-90D1-49DAD44BC502}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E660F0A4-34DA-451B-90D1-49DAD44BC502}.Release|Any CPU.ActiveCfg = Release|Any CPU

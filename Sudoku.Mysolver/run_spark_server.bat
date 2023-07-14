@@ -1,0 +1,2 @@
+cd C:\Users\utilisateur\Documents\OneDrive\Bureau\MASTER 2 ESGF\BIG DATA EN C#\first-projet_bigData\bin\Debug\netcoreapp3.1
+spark-submit --class org.apache.spark.deploy.dotnet.DotnetRunner --master local microsoft-spark-3-0_2.12-2.1.1.jar debug
